@@ -23,7 +23,7 @@ Python 3.9+, Windows/Linux/macOS.
 ## Install
 
 ```bash
-https://github.com/Afternoon11/Simple-Network-Scanner.git
+git clone https://github.com/Afternoon11/Simple-Network-Scanner.git
 cd Simple-Network-Scanner
 python -m venv .venv
 ```
