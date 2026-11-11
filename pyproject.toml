@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68","wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "netprobe-cli"
+version = "1.0.0"
+description = "Threaded TCP host and port scanner"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+[project.scripts]
+netprobe = "netprobe.cli:main"
+[tool.setuptools]
+packages = ["netprobe"]
