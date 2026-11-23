@@ -110,3 +110,15 @@ TTL values are rough clues only: up to 64 often suggests Unix/Linux, up to 128 o
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+
+## Scan Workflow
+
+```mermaid
+flowchart TD
+ A[Authorized Target or CIDR] --> B[Validate Target & Limits]
+ B --> C[Host Discovery]
+ C --> D[TCP Connect Checks]
+ D --> E[Optional Basic Banner Checks]
+ E --> F[JSON or CSV Report]
+```
